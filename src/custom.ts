@@ -94,7 +94,7 @@ const resolveWeight = (weightOrSrc?: string | number) => {
     return 200
   if (weightOrSrc.includes('light'))
     return 300
-  if (weightOrSrc.includes('normal'))
+  if (weightOrSrc.includes('normal') || weightOrSrc.includes('regular'))
     return 400
   if (weightOrSrc.includes('medium'))
     return 500
